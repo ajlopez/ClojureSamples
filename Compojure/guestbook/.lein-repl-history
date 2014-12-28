@@ -1,0 +1,32 @@
+(:use guestbook.handler)
+(:use :guestbook.handler)
+(init)
+(guestbook.handler/init)
+(println "hello")
+(doc init)
+init
+guestbook.handler/init
+(ns guestbook.handler)
+(init)
+(app)
+(guestbook.handler/init)
+(use :guestbook.handler)
+(use guestbook.handler)
+(use :guestbook.handler)
+(:use :guestbook.handler)
+guestbook.handler
+(use :guestbook)
+(:use :guestbook)
+guestbook.handler
+:guestbook.handler
+(exit)
+(require :guestbook.handler)
+(:require :guestbook.handler)
+(init)
+(guestbook.handler/init)
+guestbook.handler
+handler
+router
+(use 'guestbook.handler)
+(init)
+(stop)
