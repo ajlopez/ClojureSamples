@@ -4,7 +4,7 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [ring-server "0.3.1"]]
   :plugins [[lein-ring "0.8.12"]]
-  :ring {:handler myapp.handler/handler
+  :ring {:handler myapp.handler/app
          :init myapp.handler/init
          :destroy myapp.handler/destroy}
   :profiles

@@ -7,12 +7,12 @@
 (defn destroy []
   (println "myapp is shutting down"))
 
-(defn handler [req]
+(defn app [req]
   {:status  200
    :headers {"Content-Type" "text/html"}
    :body    "Hello World from Ring"})
 
 (defn boot []
-  (run-jetty #'handler {:port 3000}))
+  (run-jetty #'app {:port 3000}))
 
   
