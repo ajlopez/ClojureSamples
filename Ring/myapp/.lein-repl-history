@@ -1,2 +1,0 @@
-(use 'myapp.handler)
-(boot)

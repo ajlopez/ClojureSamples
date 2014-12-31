@@ -17,6 +17,6 @@
     (wrap-reload handler))
 
 (defn boot []
-  (run-jetty #'app {:port 3000}))
+  (run-jetty #'app {:port 3000 :join? false}))
 
   
