@@ -1,6 +1,9 @@
 # myapp
 
-FIXME
+Created using
+
+- https://clojars.org/compojure-app/lein-template
+- https://github.com/yogthos/compojure-template
 
 ## Prerequisites
 
