@@ -1,8 +1,8 @@
 (defproject myapp "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
-  :dependencies [[org.clojure/clojure "1.6.0"]
-                 [ring-server "0.3.1"]]
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [ring-server "0.4.0"]]
   :plugins [[lein-ring "0.8.12"]]
   :ring {:handler myapp.handler/app
          :init myapp.handler/init
