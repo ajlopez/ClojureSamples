@@ -1,0 +1,6 @@
+(use 'simple)
+(simple.hello)
+(hello)
+(simple.hello "JUGAR")
+(hello "JUGAR")
+(quit)
