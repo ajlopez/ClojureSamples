@@ -27,7 +27,12 @@ lein repl
 Then
 ```
 (use 'myapp.handler)
-(boot)
+(start-server)
+```
+
+To stop server
+```
+(stop-server)
 ```
 
 ## License
