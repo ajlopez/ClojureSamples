@@ -30,6 +30,16 @@ Then run
 (start-server)
 ```
 
+Creating an standalone jar
+```
+lein ring uberjar
+```
+
+Running the standalone jar
+```
+cd target
+java -jar guestbook-0.1.0-SNAPSHOT-standalone.jar
+```
 
 ## License
 
