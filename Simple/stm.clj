@@ -18,4 +18,3 @@
     (map deref refs)))
 
 (test-stm 10 10 10000)
-
